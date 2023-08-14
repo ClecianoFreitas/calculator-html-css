@@ -1,0 +1,67 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.caixaGeral {
+    height: 460px;
+    width: 300px;
+    background-color: #122a44;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.display{
+    height: 60px;
+    width: 280px;
+    background-color: #1aae90;
+    margin-top: 20px;
+    border-radius: 12px;
+}
+
+.botoes {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    background-color: #1aae90;
+    color:#f8efed;
+    height: 60px;
+    width: 60px;
+    border-radius: 12px;
+    margin: 7px 0px ;
+    font-weight: bold;
+
+}
+
+.botoes:hover{
+    background-color: #bfe688;
+}
+
+.botoes:active{
+    background-color: #f8efed;
+}
+
+.botoes_Diferenciados{
+    background-color: #fff250;
+    color: #000;
+}
+
+.on{
+    background-color: #68b244;
+}
+
+.on:hover{
+    background-color: red;
+}
+
+.botao_Igual{
+    background-color: #f8efed;
+    color: #000;
+}
+
+
+
